@@ -8,20 +8,50 @@ declare(strict_types=1);
 
 ?>
 <!doctype html>
-<title>INF1i</title>
-<style>
-    body { text-align: center; padding: 150px; }
-    h1 { font-size: 50px; }
-    body { font: 20px Helvetica, sans-serif; color: #333; }
-    article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-    a { color: #dc8100; text-decoration: none; }
-    a:hover { color: #333; text-decoration: none; }
-</style>
+<head>
+    <meta charset="UTF-8"/>
+    <meta lang="ENG"/>
+    <title>INF1i - WaterUp</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 150px;
+        }
 
+        h1 {
+            font-size: 50px;
+        }
+
+        body {
+            font: 20px Helvetica, sans-serif;
+            color: #333;
+        }
+
+        article {
+            display: block;
+            text-align: left;
+            width: 650px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #00AF00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
 <article>
     <h1>Inf1i WaterUp</h1>
     <div>
-        <p>Sorry for the inconvenience but the website is still under construction. If you need to you can always <a href="mailto:jorisrietveld@gmail.com">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; The Team</p>
+        <p>Welcome to the INF1i WaterUp projects website. The website is currently being constructed, if you like to
+            <a href="mailto:jorisrietveld@gmail.com">contact us</a> feel free to send a mail.</p>
+        <p>&mdash; The INF1I project team </p>
     </div>
 </article>
+</body>
