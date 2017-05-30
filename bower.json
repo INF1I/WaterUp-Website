@@ -1,0 +1,23 @@
+{
+  "name": "WaterUpApi",
+  "homepage": "https://github.com/INF1I/WaterUpWebsite",
+  "authors": [
+    "Joris Rietveld <jorisrietveld@gmail.com>",
+    "Alwin Kroesen <alwin.kroesen@student.stenden.com?"
+  ],
+  "description": "This is source code for the WaterUp projects website",
+  "main": "",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jQuery": "^3.2.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
