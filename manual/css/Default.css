@@ -3,14 +3,12 @@
     src: url("../fonts/CenturyGothicRegular.ttf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
 html, body{
     width: 100%;
     height: 100%;
     background: #444;
+    color: #FFF;
+    font-family: CenturyGothicRegular, "Century Gothic", serif;
 }
 section{
     position: relative;
@@ -19,6 +17,90 @@ section{
     display: inline-block;
     /*border: solid 1px #000;*/
 }
+
+header{
+    position: relative;
+    left: 50%;
+    width: 1200px;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+header h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+article{
+    position: relative;
+    left: 50%;
+    width: 1200px;
+    margin-left: -600px;
+    font-size: 20px;
+}
+article.half{
+    width: 600px;
+    margin-left: -600px;
+}
+article h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+article .left,
+article .right{
+    display: inline-block;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+article ul{
+
+}
+article ul li{
+    list-style-type: decimal;
+    margin-left: 22px;
+    padding: 0 0 20px 10px;
+}
+
+article figure{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background: #777;
+    padding: 5px;
+}
+article figure img{
+    /*float: left;*/
+    vertical-align: top;
+}
+article figure figcaption{
+    position: absolute;
+    background: #777;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    margin-left: -5px;
+    font-size: 18px;
+
+}
+
+
+article a{
+    color: #BBB;
+}
+article a:hover{
+    color: #FFF;
+}
+
+
+
+
 .logo{
     padding-top: 50px;
     position: relative;
@@ -29,12 +111,54 @@ section{
     height: 873px;
     text-align: center;
 }
-.name{
+.logo .name{
     position: relative;
-    font-family: CenturyGothicRegular, "Century Gothic", serif;
     font-size: 160px;
     color: #FFF;
+    font-family: CenturyGothicRegular, "Century Gothic", serif;
 }
+.logo .name .sub{
+    position: absolute;
+    top: 144px;
+    right: 365px;
+    font-size: 30px;
+    text-align: left;
+}
+
 .logo video{
+    margin-top: 20px;
     margin-left: 50px;
+}
+ul.main-menu{
+    position: relative;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #777;
+    color: #FFFFFF;
+    z-index: 9999;
+}
+ul.main-menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+ul.main-menu li a,
+ul.main-menu li a:active{
+    display: inline-block;
+    padding: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 22px;
+}
+ul.main-menu li a:hover{
+    background: #999;
+}
+.menu-spacing{
+    position: relative;
+    top: -50px;
+    height: 50px;
+    display: none;
 }
