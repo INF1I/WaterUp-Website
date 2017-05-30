@@ -21,15 +21,19 @@
     <title>User Manual</title>
 </head>
 <body>
+<div class="scroll-element">
     <section id="main" class="static">
         <div class="logo">
             <h1 class="name">WaterUp<span class="sub">User Manual</span></h1>
-            <video autoplay width="1150" height="600" > <!-- 1200x873 -->
+            <video autoplay width="1150" height="500" > <!-- 1200x873 -->
                 <source src="logo.webm" />
             </video>
         </div>
     </section>
     <ul class="main-menu">
+        <li>
+            <a href="#main" class="hash-url">Main</a>
+        </li>
         <li>
             <a href="#download" class="hash-url">Download the WaterUp app</a>
         </li>
@@ -85,7 +89,7 @@
             </div>
             <div class="right">
                 <figure>
-                    <img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=Example&choe=U%E2%80%8C%E2%80%8BTF-8&chld=M|0" alt="QR-code example"/>
+                    <img src="images/chart.png" alt="QR-code example"/>
                     <figcaption>QR-code example</figcaption>
                 </figure>
             </div>
@@ -108,7 +112,7 @@
             </div>
             <div class="right">
                 <figure>
-                    <img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=Example&choe=U%E2%80%8C%E2%80%8BTF-8&chld=M|0" alt="QR-code example"/>
+<!--                    <img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=Example&choe=U%E2%80%8C%E2%80%8BTF-8&chld=M|0" alt="QR-code example"/>-->
                     <figcaption>QR-code example</figcaption>
                 </figure>
             </div>
@@ -117,6 +121,7 @@
     <section id="">
 
     </section>
+</div>
 <script src="js/Default.js"></script>
 </body>
 </html>

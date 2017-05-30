@@ -10,12 +10,21 @@ html, body{
     color: #FFF;
     font-family: CenturyGothicRegular, "Century Gothic", serif;
 }
+.scroll-element{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
 section{
     position: relative;
     min-height: 100%;
     width: 100%;
     display: inline-block;
     /*border: solid 1px #000;*/
+}
+section#main{
+    height: 100%;
+    overflow: hidden;
 }
 
 header{
@@ -113,15 +122,15 @@ article a:hover{
 }
 .logo .name{
     position: relative;
-    font-size: 160px;
+    font-size: 130px;
     color: #FFF;
     font-family: CenturyGothicRegular, "Century Gothic", serif;
 }
 .logo .name .sub{
     position: absolute;
-    top: 144px;
-    right: 365px;
-    font-size: 30px;
+    top: 119px;
+    right: 410px;
+    font-size: 24px;
     text-align: left;
 }
 
