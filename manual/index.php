@@ -17,6 +17,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/Reset.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/Default.css" rel="stylesheet" />
     <title>User Manual</title>
 </head>
@@ -54,20 +55,20 @@
                 <h2>Android</h2>
                 <ul>
                     <li>Open the 'Play Store'.</li>
-                    <li>In the search box at the top, type: 'WaterUp - app'</li>
-                    <li>Select the app 'WaterUp - app'</li>
-                    <li>Tap 'Install'</li>
-                    <li>After install, tap on 'Open' to open the app</li>
+                    <li>In the search box at the top, type: 'WaterUp - app'.</li>
+                    <li>Select the app 'WaterUp - app'.</li>
+                    <li>Tap on 'Install' on the right side.</li>
+                    <li>After install, tap on 'Open' to open the app.</li>
                 </ul>
             </div>
             <div class="right">
                 <h2>Apple</h2>
                 <ul>
                     <li>Open the 'App Store'.</li>
-                    <li>In the search box at the top, type: 'WaterUp - app'</li>
-                    <li>Select the app 'WaterUp - app' and click on 'Get'</li>
-                    <li>Tap on 'Install' that appears in the same location as the previous get button</li>
-                    <li>After install, tap on 'Open' to open the app</li>
+                    <li>In the search box at the top, type: 'WaterUp - app'.</li>
+                    <li>Select the app 'WaterUp - app' and click on 'Get'.</li>
+                    <li>Tap on 'Install' that appears in the same location as the previous get button.</li>
+                    <li>After install, tap on 'Open' to open the app.</li>
                 </ul>
             </div>
         </article>
@@ -80,11 +81,12 @@
             <div class="left">
                 <ul>
                     <li>Open the app you've downloaded.<br />
-                        If you haven't download it yet, follow the previous instruction: '<a href="#download">Download the app</a>'</li>
-                    <li>Tap the plus in top-right corner</li>
+                        If you haven't download it yet, follow the instruction: '<a href="#download">Download the app</a>'.</li>
+                    <li>Tap the plus in top-right corner.</li>
                     <li>Take a photo of the QR-code. <br />
                         You can find the QR-code on the first page after the cover of the User Manual which is included when you bought the WaterUp plant pot.</li>
                     <li>When the message 'Connected' appears, the plant pot is added.</li>
+                    <li>Go to step 3 of the instruction: '<a href="#choose_plant">Choose your plant</a>'.</li>
                 </ul>
             </div>
             <div class="right">
@@ -102,23 +104,54 @@
         <article>
             <div class="left">
                 <ul>
-                    <li>Open the app you've downloaded.<br />
-                        If you haven't download it yet, follow the previous instruction: '<a href="#download">Download the app</a>'</li>
+                    <li>
+                        Open the app you've downloaded.<br />
+                        If you haven't download it yet, follow the instruction: '<a href="#download">Download the app</a>'.
+                    </li>
+                    <li>
+                        Select your WaterUp plant pot.<br />
+                        If you haven't added one, follow the instruction: '<a href="#connect">Connect with the WaterUp plant pot</a>'.
+                    </li>
+                    <li>
+                        Click on the photo icon <i class="fa fa-photo circle-icon"></i> to make a photo of the plant.<br />
+                        Or click on the bars icon <i class="fa fa-bars circle-icon"></i> to choose from a list.
+                    </li>
+                    <li></li>
                     <li></li>
                 </ul>
             </div>
             <div class="right">
-<!--                <figure>-->
-<!--                    <img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=Example&choe=U%E2%80%8C%E2%80%8BTF-8&chld=M|0" alt="QR-code example"/>-->
-<!--                    <figcaption>QR-code example</figcaption>-->
-<!--                </figure>-->
             </div>
         </article>
     </section>
-    <section id="">
+    <section id="screens">
+        <header>
+            <h2>Application screens explanation</h2>
+        </header>
+        <article>
+            <canvas id="choose_plant_screen" width="1200" height="800">
+            </canvas>
+<!--            <img src="images/choose_plant.jpg" width="480" height="800" alt="Choose plant image" />-->
+        </article>
+    </section>
+    <section id="general">
+        <header>
+            <h2>General</h2>
+        </header>
+        <article>
+            <div class="left">
+                <ul>
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+            </div>
+        </article>
     </section>
 </div>
 <script src="js/Default.js"></script>
+<script src="js/Explanations.js"></script>
 </body>
 </html>

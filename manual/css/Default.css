@@ -9,6 +9,7 @@ html, body{
     background: #444;
     color: #FFF;
     font-family: CenturyGothicRegular, "Century Gothic", serif;
+
 }
 .scroll-element{
     width: 100%;
@@ -45,6 +46,7 @@ article{
     width: 1200px;
     margin-left: -600px;
     font-size: 20px;
+    line-height: 24px;
 }
 article.half{
     width: 600px;
@@ -109,7 +111,6 @@ article a:hover{
 
 
 
-
 .logo{
     padding-top: 50px;
     position: relative;
@@ -170,4 +171,16 @@ ul.main-menu li a:hover{
     top: -50px;
     height: 50px;
     display: none;
+}
+
+
+.circle-icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #777777;
 }

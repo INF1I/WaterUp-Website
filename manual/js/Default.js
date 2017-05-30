@@ -20,19 +20,22 @@ window.onload = function(){
     scrollElement.onscroll = scrolling;
     scrolling();
 
-    // Overwrite onclick event of all elements with class 'hash-url'.
+    // Overwrite onclick event of a tags with a hash
     // Need for animating scroll
-    var hashLinks = document.getElementsByClassName("hash-url");
-    for( i = 0; i < hashLinks.length; i++){
-        hashLinks[i].onclick = function(e){
-            // window.location.hash = this.getAttribute("href");
-            var hash = this.getAttribute("href");
-            history.pushState(null, "User Manual "+hash.substr(1,hash.length-1), hash);
-            locationHashChanged(hash);
-            e.preventDefault();
-            return false;
-        };
+    var aTags = document.getElementsByTagName("a");
+    for( i = 0; i < aTags.length; i++){
+        var href = aTags[i].getAttribute("href");
+        if(aTags[i].getAttribute("href").substr(0,1) === "#"){
+            aTags[i].onclick = function(e){
+                hash = this.getAttribute("href");
+                history.pushState(null, "User Manual "+hash.substr(1,hash.length-1), hash);
+                locationHashChanged(hash);
+                e.preventDefault();
+                return false;
+            };
+        }
     }
+    Explanations();
 };
 
 // Get new position for menu by resizing
