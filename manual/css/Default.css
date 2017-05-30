@@ -1,0 +1,41 @@
+@font-face {
+    font-family: CenturyGothicRegular;
+    src: url("../fonts/CenturyGothicRegular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    /*border: solid 1px #000;*/
+    background: #444;
+}
+.logo{
+    padding-top: 50px;
+    position: relative;
+    left: 50%;
+    /*margin-top: -432px;*/
+    margin-left: -600px;
+    width: 1200px;
+    height: 873px;
+    text-align: center;
+}
+.name{
+    position: relative;
+    font-family: CenturyGothicRegular, "Century Gothic", serif;
+    font-size: 160px;
+    color: #FFF;
+}
+.logo video{
+    margin-left: 50px;
+}
