@@ -10,15 +10,14 @@
 html, body{
     width: 100%;
     height: 100%;
+    background: #444;
 }
 section{
     position: relative;
     min-height: 100%;
     width: 100%;
     display: inline-block;
-    float: left;
     /*border: solid 1px #000;*/
-    background: #444;
 }
 .logo{
     padding-top: 50px;

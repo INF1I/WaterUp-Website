@@ -9,25 +9,6 @@ window.onload = function(){
     body = document.body || document.documentElement;
     sections = document.querySelectorAll("body section");
 
-    for( i=0; i < sections.length; i++ ){
-        var toppos = sections[i].offsetTop;
-        sections[i].style.top = toppos + "px";
-        sections[i].style.height = sections[i].offsetHeight + "px";
-        // sections[i].style.position = "absolute";
-        // sections[i].style.height = window.innerHeight + "px";
-        console.log(i + ": " + toppos)
-    }
-    for( i=0; i < sections.length; i++ ){
-        sections[i].style.position = "absolute";
-    }
-
-    // console.log(body.offsetHeight*sections.length);
-    // body.style.height = body.scrollHeight + "px";
-    // console.log(body.scrollHeight);
-    //
-    // body.on = function(e){
-    //     console.log(e);
-    // };
 };
 
 
