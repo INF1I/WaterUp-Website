@@ -104,17 +104,14 @@
                 <ul>
                     <li>Open the app you've downloaded.<br />
                         If you haven't download it yet, follow the previous instruction: '<a href="#download">Download the app</a>'</li>
-                    <li>Tap the plus in top-right corner</li>
-                    <li>Take a photo of the QR-code. <br />
-                        You can find the QR-code on the first page after the cover of the User Manual which is included when you bought the plant pot.</li>
-                    <li>When the message 'Connected' appears, the plant pot is added.</li>
+                    <li></li>
                 </ul>
             </div>
             <div class="right">
-                <figure>
+<!--                <figure>-->
 <!--                    <img src="http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=Example&choe=U%E2%80%8C%E2%80%8BTF-8&chld=M|0" alt="QR-code example"/>-->
-                    <figcaption>QR-code example</figcaption>
-                </figure>
+<!--                    <figcaption>QR-code example</figcaption>-->
+<!--                </figure>-->
             </div>
         </article>
     </section>

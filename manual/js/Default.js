@@ -25,7 +25,10 @@ window.onload = function(){
     var hashLinks = document.getElementsByClassName("hash-url");
     for( i = 0; i < hashLinks.length; i++){
         hashLinks[i].onclick = function(e){
-            locationHashChanged(this.getAttribute("href"));
+            // window.location.hash = this.getAttribute("href");
+            var hash = this.getAttribute("href");
+            history.pushState(null, "User Manual "+hash.substr(1,hash.length-1), hash);
+            locationHashChanged(hash);
             e.preventDefault();
             return false;
         };
