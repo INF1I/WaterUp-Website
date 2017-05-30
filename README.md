@@ -18,7 +18,7 @@ will also be used to configure the right plant species by taking an
 picture of the plant, and let machine learning classify the species.
 
 ## Live version
-You can view an live version of the API at [https://www.inf1i.ga/](https://www.inf1i.ga/).
+You can view an live version of the website at [https://www.inf1i.ga/](https://www.inf1i.ga/).
 
 ## Repository Authors
 Joris Rietveld - jorisrietveld@gmail.com<br>
