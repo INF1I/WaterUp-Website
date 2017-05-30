@@ -24,20 +24,20 @@
     <section id="main" class="static">
         <div class="logo">
             <h1 class="name">WaterUp<span class="sub">User Manual</span></h1>
-            <video autoplay width="1150" height="700" > <!-- 1200x873 -->
+            <video autoplay width="1150" height="600" > <!-- 1200x873 -->
                 <source src="logo.webm" />
             </video>
         </div>
     </section>
     <ul class="main-menu">
         <li>
-            <a href="#download">Download the WaterUp app</a>
+            <a href="#download" class="hash-url">Download the WaterUp app</a>
         </li>
         <li>
-            <a href="#connect">Connect with the WaterUp plant pot</a>
+            <a href="#connect" class="hash-url">Connect with the WaterUp plant pot</a>
         </li>
         <li>
-            <a href="#choose_plant">Choose your plant</a>
+            <a href="#choose_plant" class="hash-url">Choose your plant</a>
         </li>
     </ul>
     <div class="menu-spacing"></div>
