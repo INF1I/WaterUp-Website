@@ -1,8 +1,10 @@
 # WaterUp - Project Website
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d46540ae2ed74b8989e5bf4d2d980b7a)](https://www.codacy.com/app/jorisrietveld/WaterUpWebsite?utm_source=github.com&utm_medium=referral&utm_content=INF1I/WaterUpWebsite&utm_campaign=badger) [![Dependency Status](https://gemnasium.com/badges/github.com/INF1I/WaterUpWebsite.svg)](https://gemnasium.com/github.com/INF1I/WaterUpWebsite) ![PHP version](https://img.shields.io/badge/PHP%20version->=7.0-brightgreen.svg)<br/>
+This repository contains the source code of the WaterUP projects website. The
+website contains information about the project team developing this project and
+an tutorial about using our product. Feel free to take a look at [https://www.inf1i.ga](https://www.inf1i.ga) and learn more about this project.
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d46540ae2ed74b8989e5bf4d2d980b7a)](https://www.codacy.com/app/jorisrietveld/WaterUpWebsite?utm_source=github.com&utm_medium=referral&utm_content=INF1I/WaterUpWebsite&utm_campaign=badger)
-
-![PHP version](https://img.shields.io/badge/PHP%20versiom->=7.0-brightgreen.svg)<br/>
+## About this project
 We are developing an internet of things device as part of the project
 innovate at Stenden University of applied sciences. In this project
 we are free to develop an product based on the internet of things.
@@ -19,9 +21,6 @@ send warnings when something is wrong like if the water reservoir is
 almost empty or if the plant is receiving to much sun light. The app
 will also be used to configure the right plant species by taking an
 picture of the plant, and let machine learning classify the species.
-
-## Live version
-You can view an live version of the website at [https://www.inf1i.ga/](https://www.inf1i.ga/).
 
 ## Repository Authors
 Joris Rietveld - jorisrietveld@gmail.com<br>
