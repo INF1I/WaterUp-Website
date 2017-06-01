@@ -1,4 +1,7 @@
 # WaterUp - Project Website
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d46540ae2ed74b8989e5bf4d2d980b7a)](https://www.codacy.com/app/jorisrietveld/WaterUpWebsite?utm_source=github.com&utm_medium=referral&utm_content=INF1I/WaterUpWebsite&utm_campaign=badger)
+
 ![PHP version](https://img.shields.io/badge/PHP%20versiom->=7.0-brightgreen.svg)<br/>
 We are developing an internet of things device as part of the project
 innovate at Stenden University of applied sciences. In this project
