@@ -21,6 +21,13 @@ function Explanations(){
             ctx.clearRect(0, 0, c.width, c.height);
             ctx.drawImage(img,360,0);
 
+
+            if(isInBlock(x,y, 420, 710, 540, 760)){
+                getCode(ctx).plantName();
+            }
+            if(isInBlock(x,y, 640, 165, 800, 335)){
+                getCode(ctx).plantImage();
+            }
             if(isInBlock(x,y, 564, 78, 648, 162)){
                 getCode(ctx).addWaterUpPlantPot();
             }
@@ -58,6 +65,36 @@ function isInBlock(currX, currY, startX, startY, endX, endY){
 
 function getCode(ctx){
     return {
+        plantName: function(){
+
+            // Line to text
+            ctx.beginPath();
+            ctx.moveTo(440,740);
+            ctx.lineTo(100,740);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = "#FFF";
+            ctx.stroke();
+
+            // Text
+            ctx.font = "16pt Century Gothic";
+            ctx.fillStyle = "#FFF";
+            ctx.fillText("Plant pot name",100,730);
+        },
+        plantImage: function(){
+
+            // Line to text
+            ctx.beginPath();
+            ctx.moveTo(720,255);
+            ctx.lineTo(1100,255);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = "#FFF";
+            ctx.stroke();
+
+            // Text
+            ctx.font = "16pt Century Gothic";
+            ctx.fillStyle = "#FFF";
+            ctx.fillText("Plant image",975,245);
+        },
         waterPercentage: function(){
 
             // Line to text

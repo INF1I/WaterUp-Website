@@ -57,6 +57,12 @@ article h2{
     font-weight: bold;
     padding-bottom: 20px;
 }
+article h3{
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 
 article .left,
 article .right{
@@ -68,7 +74,9 @@ article .right{
     width: 50%;
     float: left;
 }
-
+#general article{
+    font-size: 14px;
+}
 article ul{
 
 }

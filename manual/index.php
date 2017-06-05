@@ -22,6 +22,8 @@
     <title>User Manual</title>
 </head>
 <body>
+
+
 <div class="scroll-element">
     <section id="main" class="static">
         <div class="logo">
@@ -43,6 +45,12 @@
         </li>
         <li>
             <a href="#choose_plant" class="hash-url">Choose your plant</a>
+        </li>
+        <li>
+            <a href="#screens" class="hash-url">Screen explanation</a>
+        </li>
+        <li>
+            <a href="#general" class="hash-url">General</a>
         </li>
     </ul>
     <div class="menu-spacing"></div>
@@ -126,7 +134,7 @@
     </section>
     <section id="screens">
         <header>
-            <h2>Application screens explanation</h2>
+            <h2>Screen explanation</h2>
         </header>
         <article>
             <canvas id="choose_plant_screen" width="1200" height="800">
@@ -140,11 +148,26 @@
         </header>
         <article>
             <div class="left">
-                <ul>
-                    <li>
+                <h3>Warranty</h3>
+                For the warranty conditions, please read the Terms and Conditions of sale of the retailer
+                where you purchased the WaterUp pot.
+                <h3>How to recycle this product</h3>
+                Uncontrolled waste disposal may harm the environment or human health. Please separate your device from other types of waste to recycle it responsibly. This will help to foster the sustainable re-use of material resources. Individuals may contact the dealer who sold them their product, or their local council, to find out how and where they can dispose of this product to ensure that it is recycled in an environmentally friendly way. Companies may contact their suppliers or refer to the terms of their sales contract. Do not dispose of this product with other commercial waste
+                <h3>Registered trademarks</h3>
+                WaterUp and WaterUp logos are trademarks, which have been registered by WaterUp.<br />
+                <br />
+                AppStore&reg; is  a  service  mark  of  Apple,  Inc.  registered  in  the  United  States  and  in  other
+                countries.<br />
+                <br />
+                iOS  is  a  registered  trademark  belonging  to  Cisco  in  the  United  States  and  in  other
+                countries, used under license.<br />
+                <br />
+                Google Play and Android are trademarks of Google Inc.<br />
+                <br />
+                All the other trademarks and registered trademarks mentioned in this document are protected by Copyright and are the property of by their respective owners.
 
-                    </li>
-                </ul>
+                <h3>Caution!</h3>
+                The manufacturer is not responsible for any radio or TV interference caused by unauthorized  modifications  to  this  equipment.  Such  modifications  could  void  the  user authority to operate the equipment
             </div>
             <div class="right">
             </div>
