@@ -157,6 +157,12 @@ ul.main-menu{
     color: #FFFFFF;
     z-index: 9999;
 }
+ul.main-menu li#menu-title{
+    padding: 14px;
+    height: 22px;
+    cursor: pointer;
+    display: none;
+}
 ul.main-menu li{
     display: inline-block;
     text-align: center;
@@ -191,4 +197,77 @@ ul.main-menu li a:hover{
     -moz-border-radius: 50%;
     border-radius: 50%;
     background: #777777;
+}
+.canvas-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    z-index: 999;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .logo{
+
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .logo .name{
+        position: relative;
+        font-size: 40px;
+        color: #FFF;
+        font-family: CenturyGothicRegular, "Century Gothic", serif;
+    }
+    .logo .name .sub{
+        position: relative;
+        top: 10px;
+        right: auto;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .logo video{
+        margin-left: 30px;
+        width: 100% !important;
+    }
+    ul.main-menu li#menu-title{
+        display: block;
+    }
+    ul.main-menu{
+        overflow: hidden;
+    }
+    ul.main-menu li{
+        display: block;
+    }
+    article, header{
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    article.half{
+        width: 100%;
+        margin-left: 0;
+    }
+    article .left,
+    article .right{
+        width: 100%;
+    }
+    #screens canvas{
+        width: 100%;
+    }
+    .canvas-overlay{
+        display: block;
+    }
 }

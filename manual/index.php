@@ -5,8 +5,10 @@
  * Date: 29-5-2017
  * Time: 11:34
  */
+//Manual is klaar: https://www.inf1i.ga/manual/ Als jullie het
 
-//Century Gothic
+$date = new DateTime('now');
+
 ?>
 
 <!doctype html>
@@ -16,6 +18,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+
+
+    <meta name="description" content="WaterUp User Manual. How to use the WaterUp plant pot" />
+    <meta name="abstract" content="WaterUp User Manual" />
+    <meta name="keywords" content="WaterUp, water, up, waterup, Manual, user, user manual" />
+    <meta property="og:title" content="WaterUp User Manual" />
+    <meta property="og:url" content="https://www.inf1i.ga/manual/" />
+    <meta property="og:image" itemprop="image" content="https://www.inf1i.ga/manual/images/logo.jpg" />
+    <meta property="og:image:secure_url" content="https://www.inf1i.ga/manual/images/logo.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="WaterUp User Manual. How to use the WaterUp plant pot" />
+    <meta property="og:updated_time" content="<?php echo $date->getTimestamp(); ?>" />
+
+
+
     <link href="css/Reset.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/Default.css" rel="stylesheet" />
@@ -34,6 +52,9 @@
         </div>
     </section>
     <ul class="main-menu">
+        <li id="menu-title">
+            Menu
+        </li>
         <li>
             <a href="#main" class="hash-url">Main</a>
         </li>
@@ -139,6 +160,7 @@
         <article>
             <canvas id="choose_plant_screen" width="1200" height="800">
             </canvas>
+            <div class="canvas-overlay"></div>
 <!--            <img src="images/choose_plant.jpg" width="480" height="800" alt="Choose plant image" />-->
         </article>
     </section>

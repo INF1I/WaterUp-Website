@@ -40,12 +40,27 @@ function Explanations(){
         }, false);
 
     };
+    ExplanationsResize();
 }
-
-// Get new position for menu by resizing
-window.onresize = function(){
-    menuOffsetTop = window.innerHeight-menu.offsetHeight;
-};
+function ExplanationsResize(){
+    if(window.innerWidth < 1200){
+        var c=document.getElementById("choose_plant_screen");
+        var ctx=c.getContext("2d");
+        var img = new Image();
+        img.src = "images/choose_plant.jpg";
+        img.onload = function(){
+            ctx.clearRect(0, 0, c.width, c.height);
+            ctx.drawImage(img,360,0);
+            setTimeout(function(){
+                getCode(ctx).plantName();
+                getCode(ctx).plantImage();
+                getCode(ctx).addWaterUpPlantPot();
+                getCode(ctx).waterPercentage();
+                getCode(ctx).waterUpPlantPot();
+            }, 500);
+        };
+    }
+}
 
 
 function getMousePos(canvas, evt) {

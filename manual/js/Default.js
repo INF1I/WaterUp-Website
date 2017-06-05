@@ -6,7 +6,7 @@
 var menu, menuSpacing, scrollElement;
 var menuOffsetTop;
 var i, animationNum = 0;
-
+var menuOpen = false;
 
 window.onload = function(){
 
@@ -36,11 +36,40 @@ window.onload = function(){
         }
     }
     Explanations();
+
+
+    // var menuTitle = document.getElementById("menu-title");
+    menu.onclick = function () {
+        var pageY = scrollElement.scrollTop;
+        if(menuOpen){
+            menuSpacing.style.height = "50px";
+            if(pageY < 350){
+                menu.style.top = "-50px";
+            }
+            menu.style.height = "50px";
+        }else{
+            if(pageY < 350){
+                menu.style.top = "-350px";
+            }
+            menuSpacing.style.height = "350px";
+            console.log(menuSpacing);
+            menu.style.height = "350px";
+        }
+        menuOpen = !menuOpen;
+    }
 };
 
-// Get new position for menu by resizing
 window.onresize = function(){
+
+    // Get new position for menu by resizing
     menuOffsetTop = window.innerHeight-menu.offsetHeight;
+
+    menuSpacing.style.height = "50px";
+    menu.style.height = "50px";
+    menuOpen = false;
+
+    // Resize for canvas
+    ExplanationsResize();
 };
 
 
@@ -58,8 +87,15 @@ function scrolling(){
             menu.style.top = "0px";
             menuSpacing.style.display = "block";
         }else{
+
             menu.style.position = "relative";
             menu.style.top = "-50px";
+
+            if(menuOpen){
+                if(pageY < 350){
+                    menu.style.top = "-"+(350-pageY)+"px";
+                }
+            }
             menuSpacing.style.display = "none";
         }
     }
@@ -71,7 +107,9 @@ function locationHashChanged(h) {
     var p = h.substr(1, h.length-1);
     var el = document.getElementById(p);
     if( typeof el !== "undefined" && el !== null){
-        scrollTo(scrollElement, el.offsetTop, 500);
+        var newPos = el.offsetTop-300;
+        if(newPos < 0) newPos = 0;
+        scrollTo(scrollElement, newPos, 500);
         return false;
     }
 }
