@@ -110,12 +110,12 @@ $date = new DateTime('now');
             <div class="left">
                 <ul>
                     <li>Open the app you've downloaded.<br />
-                        If you haven't download it yet, follow the instruction: '<a href="#download">Download the app</a>'.</li>
+                        If you haven't download it yet, follow the instruction: '<a href="#download" class="hash-url">Download the app</a>'.</li>
                     <li>Tap the plus in top-right corner.</li>
                     <li>Take a photo of the QR-code. <br />
                         You can find the QR-code on the first page after the cover of the User Manual which is included when you bought the WaterUp plant pot.</li>
                     <li>When the message 'Connected' appears, the plant pot is added.</li>
-                    <li>Go to step 3 of the instruction: '<a href="#choose_plant">Choose your plant</a>'.</li>
+                    <li>Go to step 3 of the instruction: '<a href="#choose_plant" class="hash-url">Choose your plant</a>'.</li>
                 </ul>
             </div>
             <div class="right">
@@ -135,18 +135,16 @@ $date = new DateTime('now');
                 <ul>
                     <li>
                         Open the app you've downloaded.<br />
-                        If you haven't download it yet, follow the instruction: '<a href="#download">Download the app</a>'.
+                        If you haven't download it yet, follow the instruction: '<a href="#download" class="hash-url">Download the app</a>'.
                     </li>
                     <li>
                         Select your WaterUp plant pot.<br />
-                        If you haven't added one, follow the instruction: '<a href="#connect">Connect with the WaterUp plant pot</a>'.
+                        If you haven't added one, follow the instruction: '<a href="#connect" class="hash-url">Connect with the WaterUp plant pot</a>'.
                     </li>
                     <li>
                         Click on the photo icon <i class="fa fa-photo circle-icon"></i> to make a photo of the plant.<br />
                         Or click on the bars icon <i class="fa fa-bars circle-icon"></i> to choose from a list.
                     </li>
-                    <li></li>
-                    <li></li>
                 </ul>
             </div>
             <div class="right">

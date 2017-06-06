@@ -38,24 +38,29 @@ window.onload = function(){
     Explanations();
 
 
-    // var menuTitle = document.getElementById("menu-title");
+    var menuTitle = document.getElementById("menu-title");
     menu.onclick = function () {
         var pageY = scrollElement.scrollTop;
+        console.log(menuTitle);
         if(menuOpen){
             menuSpacing.style.height = "50px";
             if(pageY < 350){
                 menu.style.top = "-50px";
             }
             menu.style.height = "50px";
+            menuOpen = false;
         }else{
-            if(pageY < 350){
-                menu.style.top = "-350px";
+            var style = window.getComputedStyle(menuTitle);
+            if(style.display !== 'none'){
+                if(pageY < 350){
+                    menu.style.top = "-350px";
+                }
+                menuSpacing.style.height = "350px";
+                console.log(menuSpacing);
+                menu.style.height = "350px";
+                menuOpen = true;
             }
-            menuSpacing.style.height = "350px";
-            console.log(menuSpacing);
-            menu.style.height = "350px";
         }
-        menuOpen = !menuOpen;
     }
 };
 
@@ -107,8 +112,12 @@ function locationHashChanged(h) {
     var p = h.substr(1, h.length-1);
     var el = document.getElementById(p);
     if( typeof el !== "undefined" && el !== null){
-        var newPos = el.offsetTop-300;
-        if(newPos < 0) newPos = 0;
+
+        var newPos = el.offsetTop;
+        if(menuOpen) {
+            newPos -= 300;
+            if(newPos < 0) newPos = 0;
+        }
         scrollTo(scrollElement, newPos, 500);
         return false;
     }
