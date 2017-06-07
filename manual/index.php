@@ -5,7 +5,7 @@
  * Date: 29-5-2017
  * Time: 11:34
  */
-//Manual is klaar: https://www.inf1i.ga/manual/ Als jullie het
+
 
 $date = new DateTime('now');
 
@@ -18,7 +18,6 @@ $date = new DateTime('now');
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 
 
     <meta name="description" content="WaterUp User Manual. How to use the WaterUp plant pot" />
@@ -31,7 +30,6 @@ $date = new DateTime('now');
     <meta property="og:type" content="website" />
     <meta property="og:description" content="WaterUp User Manual. How to use the WaterUp plant pot" />
     <meta property="og:updated_time" content="<?php echo $date->getTimestamp(); ?>" />
-
 
 
     <link href="css/Reset.css" rel="stylesheet" />
