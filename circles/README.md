@@ -2,7 +2,7 @@
 
 First of all, you need to include the javascript.
 
-###Javascript **without** easing:
+### Javascript **without** easing:
 ```
 <script src="js/plant.min.js" type="text/javascript"></script>
 ```
@@ -15,16 +15,16 @@ First of all, you need to include the javascript.
 &nbsp;
 # How it works
 &nbsp;
-###Parent is the element where the canvas gets inserted
+### Parent is the element where the canvas gets inserted
 ```javascript
 var parent = document.getElementById("content");
 ```
-Or
+#### Or
 ```javascript
 var parent = document.body;
 ```
 &nbsp;
-###Simplest way:
+### Simplest way:
 ```javascript
 new Plant(
     parent, // Element where the canvas gets inserted
@@ -33,7 +33,7 @@ new Plant(
 ).show();
 ```
 &nbsp;
-###With custom easings (Needs easing file included)
+### With custom easings (Needs easing file included)
 ```javascript
 new Plant(
     parent, 
@@ -50,7 +50,7 @@ new Plant(
 ).show( Easing.easeOutSine );
 ```
 &nbsp;
-###With callback function
+### With callback function
 ```javascript
 new Plant(
     parent, 
@@ -64,7 +64,7 @@ new Plant(
 );
 ```
 &nbsp;
-###With duration (in milliseconds)
+### With duration (in milliseconds)
 ```javascript
 new Plant(
     parent, 
@@ -77,7 +77,7 @@ new Plant(
 );
 ```
 &nbsp;
-###All together (Needs easing file included)
+### All together (Needs easing file included)
 ```javascript
 new Plant(
     parent, 
