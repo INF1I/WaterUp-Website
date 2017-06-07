@@ -1,5 +1,17 @@
-# How it works
+# First..
 
+First of all, you need to include the javascript.
+
+Javascript without easing
+**<script src="[js/plant.min.js](js/plant.min.js)" type="text/javascript"></script>**
+
+Javascript with easing
+**<script src="[js/easing.min.js](js/easing.min.js)" type="text/javascript"></script>**
+**<script src="[js/plant.min.js](js/plant.min.js)" type="text/javascript"></script>**
+
+
+
+# How it works
 
 Parent is the element where the canvas gets inserted
 ```javascript
