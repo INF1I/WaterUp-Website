@@ -7,11 +7,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="Easing.js" type="text/javascript"></script>
-    <script src="Plant.js" type="text/javascript"></script>
+    <script src="js/easing.min.js" type="text/javascript"></script>
+    <script src="js/plant.min.js" type="text/javascript"></script>
 
-
-    <title>test</title>
+    <title>Circles</title>
 </head>
 <body>
     <div id="content"></div>
