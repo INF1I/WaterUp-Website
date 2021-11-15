@@ -1,3 +1,5 @@
+# Wordt verwijderd
+Ik ga deze repo en organisatie verwijderen. Mocht je belang bij de code hebben, download die dan.
 # WaterUp - Project Website
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d46540ae2ed74b8989e5bf4d2d980b7a)](https://www.codacy.com/app/jorisrietveld/WaterUpWebsite?utm_source=github.com&utm_medium=referral&utm_content=INF1I/WaterUpWebsite&utm_campaign=badger) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/INF1I/WaterUp-Website/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/INF1I/WaterUp-Website/?branch=master) ![PHP version](https://img.shields.io/badge/PHP%20version->=7.0-brightgreen.svg) [![Dependency Status](https://gemnasium.com/badges/github.com/INF1I/WaterUpWebsite.svg)](https://gemnasium.com/github.com/INF1I/WaterUpWebsite) ![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)<br/>
 This repository contains the source code of the WaterUP projects website. The
